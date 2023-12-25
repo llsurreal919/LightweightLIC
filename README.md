@@ -1,4 +1,4 @@
-# Towards Real Time Practical Image Compression with Lightweight Attention
+# Towards Real-Time Practical Image Compression with Lightweight Attention
 Pytorch Implementation of our paper "Towards Real Time Practical Image Compression with Lightweight Attention".
 
 ## Installation
