@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/root/LightweightLIC/compressai/utils/eval_model/__main__.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES":"0"
+            },
+            "args": [ "checkpoint","/root/Dataset/kodak/",
+                "-a","tinyliclk",
+                "-p",
+                // "out/MS-SSIM/2.4-1b9174de.pth.tar",
+                // "out/MS-SSIM/4.58-c84ad0f5.pth.tar",
+                // "out/MS-SSIM/8.73-c74b34c6.pth.tar",
+                // "out/MS-SSIM/16.64-6f76a689.pth.tar",
+                // "out/MS-SSIM/31.73-7e56d735.pth.tar",
+                // "out/MS-SSIM/60.50-3413336f.pth.tar",
+                // "out/MS-SSIM/115.37-f0400801.pth.tar",
+                // "out/MS-SSIM/220-d4228f3a.pth.tar",
+
+                "/root/Tinylic-LK_V1_2RES_Channel-new/out/MSE/0.0018_mse.pth.tar",
+                // "out/MSE/0.0035_mse.pth.tar",
+                // "out/MSE/0.0067_mse.pth.tar",
+                // "out/MSE/0.013_mse.pth.tar",
+                // "out/MSE/0.025_mse.pth.tar",
+                // "out/MSE/0.0483_mse.pth.tar",
+                // "out/MSE/0.0932_mse.pth.tar",
+                // "out/MSE/0.18_mse.pth.tar",
+
+                "--entropy-estimation",
+                "--cuda",]
+        }
+    ]
+}
