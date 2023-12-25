@@ -19,6 +19,14 @@ Run the script for a simple training pipeline:
 python examples/train.py -m tinyliclk -d /path/to/my/image/dataset/ --epochs 400 -lr 1e-4 --batch-size 8 --lambda 0.0018 --cuda --save
 ```
 
+### Evaluation
+Pre-trained models can be downloaded from [BaiduNetdisk](https://pan.baidu.com/s/1sSCJzXmkOSoImy2QH1KIKw?pwd=oks4) code: oks4.
+
+An example to evaluate model:
+```bash
+python -m compressai.utils.eval_model checkpoint path/to/eval/data/ -a tinyliclk -p path/to/pretrained/model --cuda
+```
+
 ## Acknowledgement
 The framework is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI/), we add our modifications in compressai.models.tinyliclk and compressai.elan_block for usage.
 
