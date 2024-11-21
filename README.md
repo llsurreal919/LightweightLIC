@@ -33,7 +33,7 @@ The framework is based on [CompressAI](https://github.com/InterDigitalInc/Compre
 The LightweightLIC model is partially built upon the [ELAN](https://github.com/xindongzhang/ELAN) and the open sourced official implementation of [TinyLIC](https://github.com/lumingzzz/TinyLIC). We thank the authors for sharing their code.
 
 # Reference
-> He Ziyang, Huang Minfeng, Luo Lei, Yang Xu and Zhu Ce, "Efficient Deep Visual and Inertial Odometry with Adaptive Visual Modality Selection"
+> He Ziyang, Huang Minfeng, Luo Lei, Yang Xu and Zhu Ce, "Towards real-time practical image compression with lightweight attention"
 ```
   @article{he2024towards,
     title={Towards real-time practical image compression with lightweight attention},
