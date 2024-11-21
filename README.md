@@ -31,3 +31,17 @@ python -m compressai.utils.eval_model checkpoint path/to/eval/data/ -a tinyliclk
 The framework is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI/), we add our modifications in compressai.models.tinyliclk and compressai.elan_block for usage.
 
 The LightweightLIC model is partially built upon the [ELAN](https://github.com/xindongzhang/ELAN) and the open sourced official implementation of [TinyLIC](https://github.com/lumingzzz/TinyLIC). We thank the authors for sharing their code.
+
+# Reference
+> He Ziyang, Huang Minfeng, Luo Lei, Yang Xu and Zhu Ce, "Efficient Deep Visual and Inertial Odometry with Adaptive Visual Modality Selection"
+```
+  @article{he2024towards,
+    title={Towards real-time practical image compression with lightweight attention},
+    author={He, Ziyang and Huang, Minfeng and Luo, Lei and Yang, Xu and Zhu, Ce},
+    journal={Expert Systems with Applications},
+    volume={252},
+    pages={124142},
+    year={2024},
+    publisher={Elsevier}
+  }
+```
